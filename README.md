@@ -6,7 +6,7 @@
 - Кількість годин: 23 години
 
 ## APK файл
- - [Завантажити APK] (build\app\outputs\flutter-apk\app-release.apk)
+ - [Завантажити APK] (/build/app/outputs/flutter-apk/app-release.apk)
 
  ## Посилання на репозиторій
  [GitHub репозиторій] (https://github.com/Coder19061988/PassCraft.git)
