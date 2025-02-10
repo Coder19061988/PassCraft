@@ -91,12 +91,16 @@ class _MyAppState extends State<MyApp> {
   Widget passEdit() {
     return TextField(
       readOnly: true,
+      enabled: false,
       controller: _passController,
       textAlign: TextAlign.center,
-      style: const TextStyle(fontWeight: FontWeight.w600, fontSize: 20),
+      style: TextStyle(
+          color: isDarkTheme ? Colors.white : Colors.black,
+          fontWeight: FontWeight.w600,
+          fontSize: 20),
       decoration: InputDecoration(
         hintText: '- - -',
-        enabledBorder: OutlineInputBorder(
+        disabledBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(15),
           borderSide: const BorderSide(
             width: 2.5,
@@ -286,7 +290,7 @@ class _MyAppState extends State<MyApp> {
         alignment: Alignment.bottomCenter,
         margin: const EdgeInsets.all(18),
         decoration: BoxDecoration(
-            color: const Color.fromARGB(170, 0, 159, 133),
+            color: const Color.fromARGB(255, 0, 159, 133),
             borderRadius: BorderRadius.circular(15)),
         child: Padding(
           padding: const EdgeInsets.all(25),
