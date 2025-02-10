@@ -1,12 +1,12 @@
 ## Автор
 - **ПІБ**: Веселов Андрій Ігорович
-- **mail**: aveselov88@gmail.com
+- **Email**: aveselov88@gmail.com
 
 ## Витрачені години 
 - Кількість годин: 23 години
 
 ## APK файл
- - [Завантажити APK] (/build/app/outputs/flutter-apk/app-release.apk)
+ - [Завантажити APK] (https://github.com/Coder19061988/PassCraft/releases/download/flutter/app-release.apk)
 
- ## Посилання на репозиторій
+## Посилання на репозиторій
  [GitHub репозиторій] (https://github.com/Coder19061988/PassCraft.git)
